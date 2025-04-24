@@ -1,4 +1,6 @@
 import Image from "next/image";
+import { prisma } from "../../prisma/prisma";
+console.log(prisma);
 
 export default function Home() {
   return (
